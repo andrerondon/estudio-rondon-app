@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.3",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "ejs": "^3.0.2",
@@ -18,8 +19,7 @@
     "pg": "^8.0.2"
   },
   "devDependencies": {
-    "-": "0.0.1",
-    "nodemon": "^2.0.3"
+    "-": "0.0.1"
   },
   "description": ""
 }
