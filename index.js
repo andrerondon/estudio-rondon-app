@@ -10,8 +10,8 @@ app.set('views', 'views')
 
 app.use('/', welcomeRouter)
 
-const DOMAIN = 'localhost'
-const PORT = 3000
+const DOMAIN = '0.0.0.0'
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, DOMAIN, () => {
 
