@@ -10,4 +10,8 @@ router.get('/test', (req, res) => {
   res.render('teste')
 })
 
+router.get('/test/neiaeuteamo', (req, res) => {
+  res.render('neia')
+})
+
 module.exports = router
