@@ -10,7 +10,7 @@ router.get('/test', (req, res) => {
   res.render('teste')
 })
 
-router.get('/test/neiaeuteamo', (req, res) => {
+router.get('/euteamo', (req, res) => {
   res.render('neia')
 })
 
