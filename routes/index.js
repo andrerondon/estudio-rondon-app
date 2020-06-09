@@ -14,7 +14,7 @@ router.get('/test', (req, res) => {
 //   res.render('neia')
 // })
 
-router.get('/neia', (req, res) => {
+router.get('/naosoltaminhamao', (req, res) => {
   res.render('neia')
 })
 
