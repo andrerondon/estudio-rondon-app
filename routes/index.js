@@ -14,8 +14,5 @@ router.get('/test', (req, res) => {
 //   res.render('neia')
 // })
 
-router.get('/naosoltaminhamao', (req, res) => {
-  res.render('neia')
-})
 
 module.exports = router
